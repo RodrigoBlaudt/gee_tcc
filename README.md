@@ -1,4 +1,4 @@
-# Google Earth Engine - Extração de reflectância e série histórica turbidez
+# Google Earth Engine - Extração de reflectância TOA e série temporal da Turbidez (NTU)
 
 
 Scripts utilizados em parte da metodologia para elaboração do trabalho de conclusão de curso: "Análise espaço temporal da turbidez do sistema de reservatórios em cascata do Rio Tietê via imagens orbitais: estudo de caso". 
