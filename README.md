@@ -59,5 +59,6 @@ p-value = < 0,000001
 |b3/b2+b1       | -163,438      | 0,000001     |
 
 
-https://code.earthengine.google.com/019e58514726979ddc74efcfde402767
+https://code.earthengine.google.com/678cc7f402eb2295762d9ba4cba99e35
+
 _
