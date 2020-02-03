@@ -6,7 +6,7 @@ Scripts utilizados em parte da metodologia para elaboração do trabalho de conc
 
 ________________________________________________________________________________________________________________________________________
                                                             
-# Script: Barra Bonita
+# Script: Baixo Tietê
                                                             
 Script para estimativa da Turbidez via modelagem empírica, utilizando TM/Landsat 5 em reflectância no topo da atmosfera (TOA) 
 em série histórica de 1984 a 2012.
@@ -15,13 +15,13 @@ Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, p
 
 R = 0,84; R²ajustado = 0,83; RMSE(NTU) = 4,09; nRMSE(%) = 43,13; p-value = < 0,000001
 
-Coeficiente |  Valor   |  p-value
-Intercepto  |   50,071 | 0,000637
-b3          | 1013,890 | 0,000000
-b1          | -493,525 | 0,000015
-b3/b2+b1    | -140,384 | 0,004430
-b4          | -182,019 | 0,016740
-
+| Coeficiente   | Valor         | p-value      |
+| ------------- | ------------- |------------- |
+| Intercepto    | 50,071        | 0,000637     |
+|b3             | 1013,890      | 0,000001     |
+|b1             | -493,525      | 0,000015     |
+|b3/b2+b1       | -140,384      | 0,004430     |
+|b4             | -182,019      | 0,016740     |
 
 
 
@@ -39,7 +39,12 @@ I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmã
 
 R = 0,83; R²ajustado = 0,82; RMSE(NTU) = 1,77; nRMSE(%) = 39,55; p-value = < 0,000001
 
-
+| Coeficiente   | Valor         | p-value      |
+| ------------- | ------------- |------------- |
+| Intercepto    | 50,531        | 0,000001     |
+|b3             | 1030,032      | 0,000001     |
+|b1             | -525,184      | 0,000001     |
+|b3/b2+b1       | -163,438      | 0,000001     |
 
 
 
