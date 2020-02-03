@@ -6,7 +6,7 @@ Scripts utilizados em parte da metodologia para elaboração do trabalho de conc
 
 ________________________________________________________________________________________________________________________________________
                                                             
-                                                            Script: Barra Bonita
+# Script: Barra Bonita
                                                             
 Script para estimativa da Turbidez via modelagem empírica, utilizando TM/Landsat 5 em reflectância no topo da atmosfera (TOA) 
 em série histórica de 1984 a 2012.
@@ -29,7 +29,7 @@ b4          | -182,019 | 0,016740
 
 ________________________________________________________________________________________________________________________________________
          
-                                                            Script Três Irmãos
+# Script: Médio e alto Tietê
                                                             
 Script para estimativa da Turbidez via modelagem empírica, utilizando TM/Landsat 5 em reflectância no topo da atmosfera (TOA) 
 em série histórica de 1984 a 2012.
@@ -39,11 +39,6 @@ I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmã
 
 R = 0,83; R²ajustado = 0,82; RMSE(NTU) = 1,77; nRMSE(%) = 39,55; p-value = < 0,000001
 
-Coeficiente	Valor	p
-intercepto	50,531	0,000000
-b3	1030,032	0,000000
-b1	-525,184	0,000000
-b3/b2+b1	-163,438	0,000000
 
 
 
