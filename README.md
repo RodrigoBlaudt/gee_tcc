@@ -32,8 +32,7 @@ p-value = < 0,000001
 |b4             | -182,019      | 0,016740     |
 
 
-
->> https://code.earthengine.google.com/1839d03bcf90ae87b20d3dada60df38a <<
+ https://code.earthengine.google.com/1839d03bcf90ae87b20d3dada60df38a
 
 ________________________________________________________________________________________________________________________________________
          
@@ -60,8 +59,5 @@ p-value = < 0,000001
 |b3/b2+b1       | -163,438      | 0,000001     |
 
 
-
-
->>  <<
-
+https://code.earthengine.google.com/019e58514726979ddc74efcfde402767
 _
