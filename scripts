@@ -1,7 +1,7 @@
 
 ________________________________________________________________________________________________________________________________________
                                                             
-                                                            Script Barra Bonita
+                                                           # Script: Barra Bonita
                                                             
 Script para estimativa da Turbidez via modelagem empírica, utilizando TM/Landsat 5 em reflectância no topo da atmosfera (TOA) 
 em série histórica de 1984 a 2012.
