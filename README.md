@@ -54,4 +54,14 @@ R = 0,83; R²ajustado = 0,82; RMSE(NTU) = 1,77; nRMSE(%) = 39,55; p-value = < 0,
 
 https://code.earthengine.google.com/678cc7f402eb2295762d9ba4cba99e35
 
+________________________________________________________________________________________________________________________________________
+
+# Aplicação em imagens
+
+Com o objetivo de visualizar os resultados dos modelos, foi elaborado um script para aplicação da turbidez estimada em imagens indíviduais. Neste script o modelo foi aplicado para a área do reservatório de Barra Bonita e Três Irmãos. 
+
+Com pequenas alterações é possível aplicar a estimativa para qualquer imagem ou coleção, além de qualquer reservatório abordado.
+
+https://code.earthengine.google.com/d32cd7a8295c36a51d33e5152f703a13
+
 _
