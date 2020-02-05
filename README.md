@@ -33,9 +33,9 @@ em série histórica de 1984 a 2012.
 Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, para o reservatório de Barra Bonita:
 
 - R = 0,84; 
-- R²ajustado = 0,83; 
-- RMSE(NTU) = 4,09; 
-- nRMSE(%) = 43,13 e 
+- R² ajustado = 0,83; 
+- RMSE (NTU) = 4,09; 
+- nRMSE (%) = 43,13 e 
 - p-value = < 0,000001
 
 
@@ -63,9 +63,9 @@ Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, p
 I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmãos.
 
 - R = 0,83; 
-- R²ajustado = 0,82;
-- RMSE(NTU) = 1,77;
-- nRMSE(%) = 39,55 e 
+- R² ajustado = 0,82;
+- RMSE (NTU) = 1,77;
+- nRMSE (%) = 39,55 e 
 - p-value = < 0,000001
 
 
