@@ -14,14 +14,15 @@ Para elaboração da modelagem empírica foram coletados os valores de reflectâ
 
 O script extrai os valores de reflectância TOA e os exporta (.csv) para o Google Drive do usuário. 
 
-A seleção de dados sem cobertura de nuvens foi feita no LibreOffice com base nos valores da <i>'band assessment quality'</i> (BQA). Conforme a <a href="https://www.usgs.gov/land-resources/nli/landsat/landsat-collection-1-level-1-quality-assessment-band?qt-science_support_page_related_con=0#qt-science_support_page_related_con"> USGS </a>, os pixels não contaminados por nuvens apresentam BQA com valores de: 672, 676, 680 e 684.
+A seleção de dados sem cobertura de nuvens foi feita no LibreOffice com base nos valores da <i>'band assessment quality'</i> (BQA). Conforme a <a href="https://www.usgs.gov/land-resources/nli/landsat/landsat-collection-1-level-1-quality-assessment-band?qt-science_support_page_related_con=0#qt-science_support_page_related_con"> USGS</a>, os pixels não contaminados por nuvens apresentam BQA com valores de: 672, 676, 680 e 684.
 
 Para este estudo não foi aplicado máscara de nuvens devido a utilização da reflectância TOA, e ausência, no Landsat 5, da banda de identificação de nuvens do tipo <i>cirrus</i>. 
 
 O algoritmo de máscara de nuvens é funcional para reflectância em superfície, e tem ainda um melhor desempenho quando os satelites apresentam bandas para identificação destas nuvens - próximo a 1.365 μm, como o Landsat8/OLI (banda 9) ou Sentinel-2/MSI (banda 10).
 
-https://code.earthengine.google.com/c700a17983e16e001f91b13d58e86c51
-
+<a href="https://code.earthengine.google.com/c700a17983e16e001f91b13d58e86c51" target="_blank">
+  Script - Extração da reflectância TOA - TM/Landsat-5
+</a>
 ________________________________________________________________________________________________________________________________________
                                                             
 # Baixo Tietê
@@ -32,7 +33,12 @@ em série histórica de 1984 a 2012.
 
 Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, para o reservatório de Barra Bonita:
 
-R = 0,84; R²ajustado = 0,83; RMSE(NTU) = 4,09; nRMSE(%) = 43,13; p-value = < 0,000001
+- R = 0,84; 
+- R²ajustado = 0,83; 
+- RMSE(NTU) = 4,09; 
+- nRMSE(%) = 43,13 e 
+- p-value = < 0,000001
+
 
 
 | Coeficiente   | Valor         | p-value      |
@@ -56,7 +62,11 @@ em série histórica de 1984 a 2012.
 Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, para os reservatórios do médio/alto rio Titê:
 I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmãos.
 
-R = 0,83; R²ajustado = 0,82; RMSE(NTU) = 1,77; nRMSE(%) = 39,55; p-value = < 0,000001
+- R = 0,83; 
+- R²ajustado = 0,82;
+- RMSE(NTU) = 1,77;
+- nRMSE(%) = 39,55 e 
+- p-value = < 0,000001
 
 
 
