@@ -6,7 +6,7 @@ Bacharelado em Geografia 2020 - Universidade Estadual de Maringá.
 
 ________________________________________________________________________________________________________________________________________
 
-# Extração da reflectância TOA - Landsat 5 TM
+# Extração da reflectância TOA - TM/Landsat-5
 
 Para elaboração da modelagem empírica foram coletados os valores de reflectância TOA (topo da atmosfera) em uma região de interesse (geometria: 3x3 pixels), concomitante as estações da CETESB. O script extrai os valores de reflectância TOA e os exporta (.csv) para o Google Drive do usuário. 
 
