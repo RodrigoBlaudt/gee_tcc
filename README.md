@@ -50,7 +50,9 @@ Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, p
 |b4             | -182,019      | 0,016740     |
 
 
- https://code.earthengine.google.com/1839d03bcf90ae87b20d3dada60df38a
+ <a href=" https://code.earthengine.google.com/1839d03bcf90ae87b20d3dada60df38a" target="_blank">
+  Script - Extração da reflectância TOA - TM/Landsat-5
+</a>
 
 ________________________________________________________________________________________________________________________________________
          
@@ -77,8 +79,9 @@ I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmã
 |b1             | -525,184      | 0,000001     |
 |b3/b2+b1       | -163,438      | 0,000001     |
 
-
-https://code.earthengine.google.com/678cc7f402eb2295762d9ba4cba99e35
+ <a href="https://code.earthengine.google.com/678cc7f402eb2295762d9ba4cba99e35" target="_blank">
+  Script - Extração da reflectância TOA - TM/Landsat-5
+</a>
 
 ________________________________________________________________________________________________________________________________________
 
@@ -88,6 +91,10 @@ Com o objetivo de visualizar os resultados dos modelos, foi elaborado um script 
 
 Com pequenas alterações é possível aplicar a estimativa para qualquer imagem ou coleção, além de qualquer reservatório abordado.
 
-https://code.earthengine.google.com/d32cd7a8295c36a51d33e5152f703a13
+ <a href="https://code.earthengine.google.com/d32cd7a8295c36a51d33e5152f703a13" target="_blank">
+  Script - Extração da reflectância TOA - TM/Landsat-5
+</a>
+
+
 
 _
