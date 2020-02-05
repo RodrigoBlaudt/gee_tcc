@@ -4,7 +4,17 @@
 Scripts utilizados em parte da metodologia para elaboração do trabalho de conclusão de curso: "Análise espaço temporal da turbidez do sistema de reservatórios em cascata do Rio Tietê via imagens orbitais: estudo de caso". 
 Bacharelado em Geografia 2020 - Universidade Estadual de Maringá.
 
+________________________________________________________________________________________________________________________________________
 
+# Extração da reflectância TOA - Landsat 5 TM
+
+Para elaboração da modelagem empírica foram coletados os valores de reflectância TOA (topo da atmosfera) em uma região de interesse (geometria: 3x3 pixels), concomitante as estações da CETESB. O script extrai os valores de reflectância TOA e os exporta (.csv) para o Google Drive do usuário. 
+
+A seleção de dados sem cobertura de nuvens foi feita no LibreOffice com base nos valores da <i>'band assessment quality'</i> (BQA). Conforme a USGS, os pixels não contaminados por nuvens apresentam BQA com valores de: 672, 676, 680 e 684.
+
+Para este estudo não foi aplicado máscara de nuvens devido a utilização da reflectância TOA, e ausência, no Landsat 5, da banda de identificação de nuvens do tipo <i>cirrus</i>. O algoritmo de máscara de nuvens é funcional para reflectância em superfície, e tem ainda um melhor desempenho quando os satelites apresentam bandas para identificação destas nuvens - próximo a 1.365 μm, como o Landsat8/OLI (banda 9) ou Sentinel-2/MSI (banda 10).
+
+https://code.earthengine.google.com/c700a17983e16e001f91b13d58e86c51
 
 ________________________________________________________________________________________________________________________________________
                                                             
