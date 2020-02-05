@@ -20,9 +20,8 @@ Para este estudo não foi aplicado máscara de nuvens devido a utilização da r
 
 O algoritmo de máscara de nuvens é funcional para reflectância em superfície, e tem ainda um melhor desempenho quando os satelites apresentam bandas para identificação destas nuvens - próximo a 1.365 μm, como o Landsat8/OLI (banda 9) ou Sentinel-2/MSI (banda 10).
 
-<a href="https://code.earthengine.google.com/c700a17983e16e001f91b13d58e86c51" target="_blank">
-  Script - Extração da reflectância TOA - TM/Landsat-5
-</a>
+https://code.earthengine.google.com/c700a17983e16e001f91b13d58e86c51
+
 ________________________________________________________________________________________________________________________________________
                                                             
 # Baixo Tietê
@@ -50,9 +49,8 @@ Modelo empírico regionalizado sem distinção de estação - chuvosa ou seca, p
 |b4             | -182,019      | 0,016740     |
 
 
- <a href=" https://code.earthengine.google.com/1839d03bcf90ae87b20d3dada60df38a" target="_blank">
-  Script - Extração da reflectância TOA - TM/Landsat-5
-</a>
+https://code.earthengine.google.com/1839d03bcf90ae87b20d3dada60df38a
+
 
 ________________________________________________________________________________________________________________________________________
          
@@ -71,7 +69,6 @@ I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmã
 - p-value = < 0,000001
 
 
-
 | Coeficiente   | Valor         | p-value      |
 | ------------- | ------------- |------------- |
 | Intercepto    |   50,531      | 0,000001     |
@@ -79,9 +76,8 @@ I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmã
 |b1             | -525,184      | 0,000001     |
 |b3/b2+b1       | -163,438      | 0,000001     |
 
- <a href="https://code.earthengine.google.com/678cc7f402eb2295762d9ba4cba99e35" target="_blank">
-  Script - Extração da reflectância TOA - TM/Landsat-5
-</a>
+ https://code.earthengine.google.com/678cc7f402eb2295762d9ba4cba99e35
+
 
 ________________________________________________________________________________________________________________________________________
 
@@ -91,10 +87,8 @@ Com o objetivo de visualizar os resultados dos modelos, foi elaborado um script 
 
 Com pequenas alterações é possível aplicar a estimativa para qualquer imagem ou coleção, além de qualquer reservatório abordado.
 
- <a href="https://code.earthengine.google.com/d32cd7a8295c36a51d33e5152f703a13" target="_blank">
-  Script - Extração da reflectância TOA - TM/Landsat-5
-</a>
+https://code.earthengine.google.com/d32cd7a8295c36a51d33e5152f703a13
 
 
-
+________________________________________________________________________________________________________________________________________
 _
