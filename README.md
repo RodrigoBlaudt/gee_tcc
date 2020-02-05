@@ -81,7 +81,7 @@ I) Bariri; II) Ibitinga; III) Promissão; IV) Nova Avanhandava; e V) Três Irmã
 
 ________________________________________________________________________________________________________________________________________
 
-# Aplicação em imagens
+# Aplicação da estimativa em imagens
 
 Com o objetivo de visualizar os resultados dos modelos, foi elaborado um script para aplicação da turbidez estimada em imagens indíviduais. Neste script o modelo foi aplicado para a área do reservatório de Barra Bonita e Três Irmãos. 
 
